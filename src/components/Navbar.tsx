@@ -47,10 +47,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPsbModal }) => {
           
           {/* Logo Brand */}
           <a href="#" className="flex items-center gap-3 group">
-            {/* Logo Placeholder: User can swap with <img src="/logo.png" /> */}
-            <div className="w-11 h-11 rounded-xl bg-emerald-800 text-white flex items-center justify-center font-bold text-lg shadow-sm border border-emerald-900 group-hover:bg-emerald-700 transition">
-              <span className="font-serif tracking-tight">NI</span>
-            </div>
+            <img
+              src="/logo-nurul-ibad.png"
+              alt="Logo Pondok Pesantren Nurul Ibad (YASNI)"
+              className="w-11 h-11 object-contain drop-shadow-xs group-hover:scale-105 transition-transform"
+            />
             
             <div className="flex flex-col">
               <div className="flex items-center gap-2">

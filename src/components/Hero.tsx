@@ -104,8 +104,12 @@ export const Hero: React.FC<HeroProps> = ({ onOpenPsbModal }) => {
               {/* Photo / Campus Graphic Placeholder */}
               <div className="relative aspect-4/3 rounded-xl bg-zinc-100 border border-zinc-200 overflow-hidden flex flex-col items-center justify-center p-6 text-center group">
                 {/* User can replace this inner element with a real <img src="/foto-pondok.jpg" /> */}
-                <div className="w-16 h-16 rounded-full bg-emerald-800 text-white flex items-center justify-center mb-3 shadow-sm">
-                  <BookOpen className="w-8 h-8 text-emerald-100" />
+                <div className="w-20 h-20 rounded-2xl bg-white border border-zinc-200/80 p-2 flex items-center justify-center mb-3 shadow-xs">
+                  <img
+                    src="/logo-nurul-ibad.png"
+                    alt="Logo Yayasan Nurul Ibad"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 <h3 className="font-bold text-zinc-900 text-base">
                   Lingkungan Pondok Pesantren

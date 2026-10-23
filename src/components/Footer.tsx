@@ -11,9 +11,11 @@ export const Footer: React.FC = () => {
           {/* Brand Info */}
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-emerald-800 text-white flex items-center justify-center font-bold text-base shadow-xs">
-                <span className="font-serif">NI</span>
-              </div>
+              <img
+                src="/logo-nurul-ibad.png"
+                alt="Logo Pondok Pesantren Nurul Ibad (YASNI)"
+                className="w-10 h-10 object-contain drop-shadow-xs"
+              />
               <div>
                 <p className="font-bold text-base text-zinc-900 tracking-tight">
                   {PESANTREN_INFO.name}
