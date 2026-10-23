@@ -5,8 +5,8 @@ Website profil resmi dan Penerimaan Santri Baru (PSB) Pondok Pesantren Nurul Iba
 ## Profil Singkat
 - **Nama Lembaga:** Pondok Pesantren Nurul Ibad (Khusus Santri Putra)
 - **Pendiri:** Almaghfurlah KH. Muhammad Syakrim, BA
-- **Manhaj / Afiliasi:** Ahlussunnah wal Jama'ah An-Nahdliyyah (Nahdlatul Ulama)
-- **Karakter Lembaga:** Pesantren Salafiyah dengan kapasitas binaan santri terbatas (±25 santri) serta program bimbingan pengenalan dasar komputer/IT santri.
+- **Fokus Pendidikan:** Kajian Kitab Kuning, Tahfidzul Qur'an, Pembinaan Adab, dan Bimbingan Pengenalan Dasar Komputer Santri.
+- **Kapasitas Binaan:** Santri terbatas (±25 santri putra) untuk pengasuhan intensif dan kekeluargaan.
 - **Alamat:** Jl. Gorda No. 44, RT. 1 / RW. 1, Kelurahan Lubang Buaya, Kecamatan Cipayung, Jakarta Timur 13810.
 
 ## Teknologi

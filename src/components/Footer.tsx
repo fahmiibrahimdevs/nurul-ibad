@@ -27,14 +27,14 @@ export const Footer: React.FC = () => {
             </div>
 
             <p className="text-zinc-600 leading-relaxed pr-6">
-              Lembaga pendidikan pesantren salafiyah berakar tradisi Ahlussunnah wal Jama'ah An-Nahdliyyah 
-              dengan daya tampung santri binaan terbatas agar pembinaan adab, ibadah, 
-              serta pengenalan dasar komputer santri putra berlangsung intensif dan penuh kekeluargaan.
+              Pondok Pesantren Nurul Ibad adalah lembaga pendidikan pesantren khusus santri putra yang 
+              berfokus pada kajian Kitab Kuning dan pembinaan adab, dengan daya tampung santri binaan terbatas 
+              agar bimbingan berlangsung intensif dan penuh kekeluargaan.
             </p>
 
             <div className="text-[11px] text-zinc-500 space-y-1">
               <p>Didirikan oleh: <strong className="text-zinc-700">{PESANTREN_INFO.founder}</strong></p>
-              <p>Afiliasi Keilmuan: Nahdlatul Ulama (Aswaja An-Nahdliyyah)</p>
+              <p>Fokus Pendidikan: Kajian Kitab Kuning, Tahfidz & Literasi Komputer</p>
             </div>
           </div>
 

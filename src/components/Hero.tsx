@@ -25,19 +25,19 @@ export const Hero: React.FC<HeroProps> = ({ onOpenPsbModal }) => {
               </p>
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-xs font-semibold text-emerald-900">
                 <span className="w-2 h-2 rounded-full bg-emerald-600 animate-pulse" />
-                Pesantren Salafiyah Nahdlatul Ulama &bull; Khusus Putra
+                Pondok Pesantren Nurul Ibad &bull; Khusus Putra
               </div>
             </div>
 
             {/* Main Title */}
             <div className="space-y-3">
               <h1 className="text-3xl sm:text-4xl lg:text-[42px] font-bold text-zinc-950 tracking-tight leading-[1.18]">
-                Membina Akhlak & Kemandirian Santri Putra: Mengaji Kitab Salaf, Mengenal Dasar Komputer.
+                Membina Akhlak & Kemandirian Santri Putra: Mengaji Kitab Kuning, Mengenal Dasar Komputer.
               </h1>
               <p className="text-base sm:text-lg text-zinc-600 leading-relaxed font-normal">
                 <strong className="text-zinc-900 font-semibold">{PESANTREN_INFO.name}</strong> Jakarta Timur 
-                menyelenggarakan pendidikan pesantren salafiyah khusus santri putra dengan daya tampung 
-                terbatas <span className="text-emerald-900 font-semibold">(±25 santri)</span>. 
+                menyelenggarakan pendidikan pesantren khusus santri putra berbasis kajian Kitab Kuning dengan daya tampung 
+                binaan terbatas <span className="text-emerald-900 font-semibold">(±25 santri)</span>. 
                 Suasana kekeluargaan yang guyub menjadikan pembinaan adab, ibadah, dan pendampingan belajar santri berlangsung lebih dekat dan terpantau secara intensif.
               </p>
             </div>

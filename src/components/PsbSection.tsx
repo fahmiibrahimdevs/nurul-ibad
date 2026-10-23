@@ -175,7 +175,7 @@ export const PsbSection: React.FC = () => {
                   <option value="Lulus SD / Masuk SMP">Lulus SD / Masuk Usia SMP</option>
                   <option value="Usia SMP / MTs">Usia SMP / MTs</option>
                   <option value="Usia SMA / MA">Usia SMA / MA</option>
-                  <option value="Fokus Pengajian Salaf Murni">Fokus Pengajian Kitab Salaf Murni</option>
+                  <option value="Kajian Kitab Kuning & Tahfidz Murni">Kajian Kitab Kuning & Tahfidz Murni</option>
                 </select>
               </div>
             </div>

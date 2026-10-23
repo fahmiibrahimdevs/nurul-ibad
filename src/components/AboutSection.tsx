@@ -13,12 +13,11 @@ export const AboutSection: React.FC = () => {
             Profil & Sanad Keilmuan
           </p>
           <h2 className="text-2xl sm:text-4xl font-bold text-zinc-950 tracking-tight">
-            Menjaga Tradisi Salaf, Mengasuh Penuh Kekeluargaan
+            Menjaga Tradisi Kitab Kuning, Mengasuh Penuh Kekeluargaan
           </h2>
           <p className="text-sm sm:text-base text-zinc-600 leading-relaxed">
             {PESANTREN_INFO.name} didirikan oleh <strong className="text-zinc-900 font-semibold">{PESANTREN_INFO.founder}</strong> sebagai 
-            wadah pembinaan thalabul 'ilmi yang berpegang teguh pada akidah Ahlussunnah wal Jama'ah An-Nahdliyyah, 
-            menitikberatkan pada kedekatan asatidz dengan santri dalam asrama yang bersahaja.
+            wadah pembinaan thalabul 'ilmi yang menitikberatkan pada kajian Kitab Kuning dan kedekatan asatidz dengan santri dalam asrama yang bersahaja.
           </p>
         </div>
 
@@ -56,10 +55,10 @@ export const AboutSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Right: 4 Characteristic Values of NU */}
+          {/* Right: 4 Characteristic Values of Santri */}
           <div className="lg:col-span-5 space-y-4">
             <h3 className="text-sm font-bold text-zinc-900 uppercase tracking-wider px-1">
-              Empat Pilar Karakter Aswaja Santri
+              Empat Karakter Utama Santri
             </h3>
 
             <div className="space-y-3">
@@ -82,7 +81,7 @@ export const AboutSection: React.FC = () => {
                 <div>
                   <h4 className="text-sm font-bold text-zinc-900">Tawazun (Keseimbangan)</h4>
                   <p className="text-xs text-zinc-500 mt-0.5">
-                    Keseimbangan antara ilmu ukhrawi dan ilmu duniawi, antara ngaji kitab salaf dan mengenal komputer.
+                    Keseimbangan antara ilmu ukhrawi dan ilmu duniawi, antara ngaji Kitab Kuning dan mengenal komputer.
                   </p>
                 </div>
               </div>
@@ -106,7 +105,7 @@ export const AboutSection: React.FC = () => {
                 <div>
                   <h4 className="text-sm font-bold text-zinc-900">Al-Muhafadhotu 'ala Qadimis Shalih</h4>
                   <p className="text-xs text-zinc-500 mt-0.5">
-                    Menjaga tradisi salaf yang baik dan mengambil hal baru yang bermanfaat (literasi IT santri).
+                    Menjaga tradisi pengajian Kitab Kuning yang luhur dan mengambil ilmu baru yang bermanfaat (literasi IT santri).
                   </p>
                 </div>
               </div>

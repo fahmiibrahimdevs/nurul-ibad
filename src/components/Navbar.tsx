@@ -118,7 +118,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPsbModal }) => {
               onClick={() => setMobileMenuOpen(false)}
               className="block px-3 py-2 rounded-md hover:bg-emerald-50 hover:text-emerald-800"
             >
-              Profil & Sanad Aswaja
+              Profil Pesantren & Sanad Ilmu
             </a>
             <a
               href="#bimbingan-it"

@@ -124,7 +124,7 @@ export const PsbModal: React.FC<PsbModalProps> = ({ isOpen, onClose }) => {
                 <option value="Lulus SD / Masuk SMP">Lulus SD / Masuk SMP</option>
                 <option value="Usia SMP / MTs">Usia SMP / MTs</option>
                 <option value="Usia SMA / MA">Usia SMA / MA</option>
-                <option value="Pengajian Salaf Murni">Pengajian Salaf Murni</option>
+                <option value="Kajian Kitab Kuning & Tahfidz">Kajian Kitab Kuning & Tahfidz Murni</option>
               </select>
             </div>
 
