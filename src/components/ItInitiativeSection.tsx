@@ -14,12 +14,12 @@ export const ItInitiativeSection: React.FC = () => {
             Program Bimbingan Santri
           </div>
           <h2 className="text-2xl sm:text-4xl font-bold text-zinc-950 tracking-tight">
-            Bimbingan Komputer & Pengenalan IT Santri
+            Bimbingan Multimedia & Komputer Santri
           </h2>
           <p className="text-sm sm:text-base text-zinc-600 leading-relaxed">
             Menjawab kebutuhan zaman secara bertahap dan bersahaja. 
-            Santri putra dibekali pemahaman dasar komputer dan etika digital, 
-            dengan tetap menempatkan pengajian Al-Qur'an dan kitab kuning sebagai poros utama pendidikan.
+            Santri putra dibekali pemahaman dasar komputer, multimedia, dan etika digital, 
+            dengan tetap menempatkan pengajian Al-Qur'an dan Kitab Kuning sebagai poros utama pendidikan.
           </p>
         </div>
 
@@ -59,12 +59,12 @@ export const ItInitiativeSection: React.FC = () => {
 
             <div className="pt-2">
               <a
-                href={`https://wa.me/${CONTACT_PERSONS[0].phoneRaw}?text=${encodeURIComponent(CONTACT_PERSONS[0].defaultMessage)}`}
+                href={`https://wa.me/${CONTACT_PERSONS[1].phoneRaw}?text=${encodeURIComponent(CONTACT_PERSONS[1].defaultMessage)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-xs font-semibold text-emerald-800 hover:text-emerald-950 transition"
               >
-                Tanya Ust. Mazen seputar bimbingan IT &rarr;
+                Tanya Ust. Rifki seputar multimedia & IT santri &rarr;
               </a>
             </div>
           </div>

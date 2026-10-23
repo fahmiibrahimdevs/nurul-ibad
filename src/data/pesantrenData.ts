@@ -46,12 +46,12 @@ export const PESANTREN_INFO = {
 // 3 Pengajar Utama dalam 1 Baris (Pendiri di Tengah)
 export const MAIN_TEACHERS: Teacher[] = [
   {
-    id: "masyayikh",
-    name: "Dewan Masyayikh & Pengasuh",
-    role: "Pengampu Kitab Kuning & Diniyah",
-    badge: "Kajian Kitab Kuning",
-    bio: "Membimbing kajian Kitab Kuning (Fikih, Nahwu-Sharaf, Tauhid, Akhlak) dengan metode sorogan dan bandongan serta pendampingan adab keseharian santri.",
-    avatarInitial: "DM",
+    id: "bisrilhafi",
+    name: "Ust. Bisrilhafi",
+    role: "Pengampu Kitab Kuning & Tahfidzul Qur'an",
+    badge: "Kitab Kuning & Tahfidz",
+    bio: "Membimbing pengajian Kitab Kuning (Fikih, Nahwu-Sharaf, Tauhid, Akhlak) dengan metode sorogan dan bandongan serta halaqah tahfidz Al-Qur'an santri harian.",
+    avatarInitial: "UB",
     imageSrc: "",
   },
   {
@@ -64,12 +64,12 @@ export const MAIN_TEACHERS: Teacher[] = [
     imageSrc: "/foto-pendiri.png", // Foto resmi pendiri
   },
   {
-    id: "pembina-it",
-    name: "Pembina IT & Asatidz Pendamping",
-    role: "Pengenalan Komputer & Literasi Digital",
-    badge: "Bimbingan Komputer",
-    bio: "Mendampingi santri belajar keterampilan komputer praktis, mengetik rapi, pemanfaatan internet sehat, dan logika dasar komputasi setelah ngaji Kitab Kuning.",
-    avatarInitial: "IT",
+    id: "rifki",
+    name: "Ust. Rifki",
+    role: "Pembina Multimedia & IT Santri",
+    badge: "Multimedia & IT",
+    bio: "Mendampingi santri belajar keterampilan komputer, multimedia, pengetikan rapi, serta pemahaman logika dasar teknologi setelah pengajian Kitab Kuning.",
+    avatarInitial: "RF",
     imageSrc: "",
   },
 ];
@@ -90,17 +90,17 @@ export const HUMAS_PERSONS: HumasPerson[] = [
     defaultMessage: "Assalamu'alaikum Warahmatullahi Wabarakatuh Ust. Zen, saya ingin berkonsultasi mengenai pembinaan santri dan bimbingan komputer di Pondok Pesantren Nurul Ibad.",
   },
   {
-    id: "rifqi",
-    name: "Ust. Rifqi",
-    nickName: "Ust. Rifqi",
-    role: "Sekretariat & Pendaftaran (PSB)",
-    badge: "Sekretariat & Pendaftaran",
+    id: "rifki",
+    name: "Ust. Rifki",
+    nickName: "Ust. Rifki",
+    role: "Sekretariat PSB & Pembina Multimedia IT",
+    badge: "Sekretariat & Multimedia IT",
     phone: "0812-2197-8018",
     phoneRaw: "6281221978018",
-    bio: "Mengurus administrasi pendaftaran santri baru, konfirmasi ketersediaan sisa kuota (kapasitas ±25 santri), serta penjelasan infaq pendaftaran.",
-    avatarInitial: "RQ",
+    bio: "Mengurus administrasi pendaftaran santri baru, konfirmasi sisa kuota (kapasitas ±25 santri), infaq pendaftaran, serta pembimbing multimedia & IT santri.",
+    avatarInitial: "RF",
     imageSrc: "",
-    defaultMessage: "Assalamu'alaikum Warahmatullahi Wabarakatuh Ust. Rifqi, saya ingin bertanya terkait persyaratan pendaftaran santri baru dan sisa kuota di Nurul Ibad.",
+    defaultMessage: "Assalamu'alaikum Warahmatullahi Wabarakatuh Ust. Rifki, saya ingin bertanya terkait pendaftaran santri baru dan bimbingan multimedia IT di Nurul Ibad.",
   },
   {
     id: "taufiq",
