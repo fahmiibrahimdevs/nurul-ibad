@@ -1,0 +1,128 @@
+// Data Terpusat Pondok Pesantren Nurul Ibad
+// Skala Pesantren: Santri terbatas (±25 santri putra) untuk pembinaan intensif & kekeluargaan
+
+export interface Teacher {
+  id: string;
+  name: string;
+  role: string;
+  badge: string;
+  bio: string;
+  avatarInitial: string;
+  imageSrc?: string;
+}
+
+export interface HumasPerson {
+  id: string;
+  name: string;
+  nickName: string;
+  role: string;
+  badge: string;
+  phone: string;
+  phoneRaw: string;
+  bio: string;
+  avatarInitial: string;
+  imageSrc?: string;
+  defaultMessage: string;
+}
+
+export const PESANTREN_INFO = {
+  name: "Pondok Pesantren Nurul Ibad",
+  tagline: "Pesantren Salafiyah Khusus Putra dengan Bimbingan Pengenalan IT & Pengasuhan Intensif",
+  arabicName: "مَعْهَدُ نُوْرِ الْعِبَادِ الْإِسْلَامِيّ",
+  founder: "Almaghfurlah KH. Muhammad Syakrim, BA",
+  genderCategory: "Khusus Santri Putra",
+  capacity: "±25 Santri (Binaan Terbatas)",
+  affiliation: "Nahdlatul Ulama (Aswaja An-Nahdliyyah)",
+  address: {
+    street: "Jl. Gorda No. 44, RT. 1 / RW. 1",
+    village: "Kelurahan Lubang Buaya",
+    district: "Kecamatan Cipayung",
+    city: "Jakarta Timur, DKI Jakarta",
+    postalCode: "13810",
+    full: "Jl. Gorda No. 44, RT. 1 / RW. 1, Kelurahan Lubang Buaya, Kecamatan Cipayung, Jakarta Timur, DKI Jakarta 13810",
+    mapsUrl: "https://maps.app.goo.gl/r7C5b4eaiFkuVisS7",
+  },
+};
+
+// 3 Pengajar Utama dalam 1 Baris (Pendiri di Tengah)
+export const MAIN_TEACHERS: Teacher[] = [
+  {
+    id: "masyayikh",
+    name: "Dewan Masyayikh & Pengasuh",
+    role: "Pengampu Kitab Kuning & Diniyah",
+    badge: "Kajian Kitab & Al-Qur'an",
+    bio: "Membimbing kajian kitab salafiyah (Fikih, Nahwu-Sharaf, Tauhid, Akhlak) dengan metode sorogan dan bandongan serta pendampingan adab keseharian santri.",
+    avatarInitial: "DM",
+    imageSrc: "",
+  },
+  {
+    id: "founder",
+    name: "KH. Muhammad Syakrim, BA",
+    role: "Pendiri Pondok Pesantren Nurul Ibad",
+    badge: "Almaghfurlah / Pendiri",
+    bio: "Ulama kharismatik Nahdlatul Ulama Jakarta Timur. Peletak pondasi sanad keilmuan Ahlussunnah wal Jama'ah, adab kesantrian, dan keteladanan perjuangan dakwah umat.",
+    avatarInitial: "MS",
+    imageSrc: "/foto-pendiri.png", // Foto resmi pendiri
+  },
+  {
+    id: "pembina-it",
+    name: "Pembina IT & Asatidz Pendamping",
+    role: "Pengenalan Komputer & Literasi Digital",
+    badge: "Bimbingan Komputer",
+    bio: "Mendampingi santri belajar keterampilan komputer praktis, mengetik rapi, pemanfaatan internet sehat, dan logika dasar komputasi setelah ngaji kitab.",
+    avatarInitial: "IT",
+    imageSrc: "",
+  },
+];
+
+// 3 Humas Utama dalam 1 Baris (Ust. Zen, Ust. Rifqi, Ust. Taufiq)
+export const HUMAS_PERSONS: HumasPerson[] = [
+  {
+    id: "zen",
+    name: "Ust. Mazen Firdaus",
+    nickName: "Ust. Zen",
+    role: "Humas & Pembina IT Santri",
+    badge: "Humas & Bimbingan IT",
+    phone: "0821-4277-3754",
+    phoneRaw: "6282142773754",
+    bio: "Melayani konsultasi umum wali santri, pengenalan pembinaan adab & kitab, serta penjelasan seputar kegiatan belajar komputer santri putra.",
+    avatarInitial: "MZ",
+    imageSrc: "",
+    defaultMessage: "Assalamu'alaikum Warahmatullahi Wabarakatuh Ust. Zen, saya ingin berkonsultasi mengenai pembinaan santri dan bimbingan komputer di Pondok Pesantren Nurul Ibad.",
+  },
+  {
+    id: "rifqi",
+    name: "Ust. Rifqi",
+    nickName: "Ust. Rifqi",
+    role: "Sekretariat & Pendaftaran (PSB)",
+    badge: "Sekretariat & Pendaftaran",
+    phone: "0812-2197-8018",
+    phoneRaw: "6281221978018",
+    bio: "Mengurus administrasi pendaftaran santri baru, konfirmasi ketersediaan sisa kuota (kapasitas ±25 santri), serta penjelasan infaq pendaftaran.",
+    avatarInitial: "RQ",
+    imageSrc: "",
+    defaultMessage: "Assalamu'alaikum Warahmatullahi Wabarakatuh Ust. Rifqi, saya ingin bertanya terkait persyaratan pendaftaran santri baru dan sisa kuota di Nurul Ibad.",
+  },
+  {
+    id: "taufiq",
+    name: "Ust. Taufiq",
+    nickName: "Ust. Taufiq",
+    role: "Pengurus Asrama & Jadwal Kunjungan",
+    badge: "Asrama & Kunjungan",
+    phone: "0812-8398-5450",
+    phoneRaw: "6281283985450",
+    bio: "Bertanggung jawab atas ketertiban asrama santri putra, koordinasi survei kamar mukim, dan penerimaan kunjungan silaturahmi langsung wali santri.",
+    avatarInitial: "TQ",
+    imageSrc: "",
+    defaultMessage: "Assalamu'alaikum Warahmatullahi Wabarakatuh Ust. Taufiq, saya berniat silaturahmi langsung ke pondok bersama calon santri untuk survei asrama.",
+  },
+];
+
+export const CONTACT_PERSONS = HUMAS_PERSONS.map((h) => ({
+  name: h.name,
+  phone: h.phone,
+  phoneRaw: h.phoneRaw,
+  division: h.badge,
+  description: h.bio,
+  defaultMessage: h.defaultMessage,
+}));
