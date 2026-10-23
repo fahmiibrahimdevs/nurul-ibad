@@ -30,6 +30,7 @@ export const PESANTREN_INFO = {
   tagline: "Pondok Pesantren Khusus Putra dengan Kajian Kitab Kuning & Bimbingan Komputer Santri",
   arabicName: "مَعْهَدُ نُوْرِ الْعِبَادِ الْإِسْلَامِيّ",
   founder: "Almaghfurlah KH. Muhammad Syakrim, BA",
+  chairman: "KH. Ibnu Mulkan Syakrim",
   genderCategory: "Khusus Santri Putra",
   capacity: "±25 Santri (Binaan Terbatas)",
   address: {
@@ -43,17 +44,8 @@ export const PESANTREN_INFO = {
   },
 };
 
-// 3 Pengajar Utama dalam 1 Baris (Pendiri di Tengah)
-export const MAIN_TEACHERS: Teacher[] = [
-  {
-    id: "bisrilhafi",
-    name: "Ust. Bisrilhafi",
-    role: "Pengampu Kitab Kuning & Tahfidzul Qur'an",
-    badge: "Kitab Kuning & Tahfidz",
-    bio: "Membimbing pengajian Kitab Kuning (Fikih, Nahwu-Sharaf, Tauhid, Akhlak) dengan metode sorogan dan bandongan serta halaqah tahfidz Al-Qur'an santri harian.",
-    avatarInitial: "UB",
-    imageSrc: "",
-  },
+// 1. Masyayikh & Pimpinan Yayasan
+export const LEADERSHIP_MEMBERS: Teacher[] = [
   {
     id: "founder",
     name: "KH. Muhammad Syakrim, BA",
@@ -62,6 +54,28 @@ export const MAIN_TEACHERS: Teacher[] = [
     bio: "Ulama kharismatik Jakarta Timur. Peletak pondasi sanad keilmuan, adab kesantrian, dan keteladanan perjuangan dakwah umat di Pondok Pesantren Nurul Ibad.",
     avatarInitial: "MS",
     imageSrc: "/foto-pendiri.png", // Foto resmi pendiri
+  },
+  {
+    id: "chairman",
+    name: "KH. Ibnu Mulkan Syakrim",
+    role: "Ketua Yayasan Nurul Ibad",
+    badge: "Ketua Yayasan",
+    bio: "Memimpin arah pengembangan kelembagaan yayasan, mengawal kesinambungan nilai perjuangan pesantren, dan memfasilitasi pembinaan santri putra.",
+    avatarInitial: "IM",
+    imageSrc: "",
+  },
+];
+
+// 2. Dewan Asatidz Pengampu Pendidikan Santri
+export const TEACHER_MEMBERS: Teacher[] = [
+  {
+    id: "bisrilhafi",
+    name: "Ust. Bisrilhafi",
+    role: "Pengampu Kitab Kuning & Tahfidzul Qur'an",
+    badge: "Kitab Kuning & Tahfidz",
+    bio: "Membimbing pengajian Kitab Kuning (Fikih, Nahwu-Sharaf, Tauhid, Akhlak) dengan metode sorogan dan bandongan serta halaqah tahfidz Al-Qur'an santri harian.",
+    avatarInitial: "UB",
+    imageSrc: "",
   },
   {
     id: "rifki",
@@ -74,20 +88,22 @@ export const MAIN_TEACHERS: Teacher[] = [
   },
 ];
 
-// 3 Humas Utama dalam 1 Baris (Ust. Zen, Ust. Rifqi, Ust. Taufiq)
+export const MAIN_TEACHERS: Teacher[] = [...LEADERSHIP_MEMBERS, ...TEACHER_MEMBERS];
+
+// 3 Humas Utama dalam 1 Baris (Ust. Zen, Ust. Rifki, Ust. Taufiq)
 export const HUMAS_PERSONS: HumasPerson[] = [
   {
     id: "zen",
     name: "Ust. Mazen Firdaus",
     nickName: "Ust. Zen",
-    role: "Humas & Pembina IT Santri",
-    badge: "Humas & Bimbingan IT",
+    role: "Humas & Pembinaan Santri",
+    badge: "Humas & Pembinaan",
     phone: "0821-4277-3754",
     phoneRaw: "6282142773754",
-    bio: "Melayani konsultasi umum wali santri, pengenalan pembinaan adab & Kitab Kuning, serta penjelasan seputar kegiatan belajar komputer santri putra.",
+    bio: "Melayani konsultasi umum calon wali santri, informasi lingkungan pondok, serta koordinasi penerimaan santri baru.",
     avatarInitial: "MZ",
     imageSrc: "",
-    defaultMessage: "Assalamu'alaikum Warahmatullahi Wabarakatuh Ust. Zen, saya ingin berkonsultasi mengenai pembinaan santri dan bimbingan komputer di Pondok Pesantren Nurul Ibad.",
+    defaultMessage: "Assalamu'alaikum Warahmatullahi Wabarakatuh Ust. Zen, saya ingin berkonsultasi mengenai pembinaan santri di Pondok Pesantren Nurul Ibad.",
   },
   {
     id: "rifki",
