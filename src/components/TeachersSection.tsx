@@ -108,12 +108,12 @@ export const TeachersSection: React.FC = () => {
               >
                 {/* Circular Avatar Container */}
                 <div className="relative mb-5">
-                  <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-white border-2 border-emerald-800/80 flex items-center justify-center text-emerald-900 shadow-xs group-hover:scale-102 transition-transform overflow-hidden">
+                  <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-full bg-white border-2 border-emerald-800/80 flex items-center justify-center text-emerald-900 shadow-xs group-hover:scale-102 transition-transform overflow-hidden">
                     {teacher.imageSrc ? (
                       <img
                         src={teacher.imageSrc}
                         alt={teacher.name}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover object-top"
                       />
                     ) : (
                       <div className="flex flex-col items-center justify-center">

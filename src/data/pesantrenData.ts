@@ -75,7 +75,7 @@ export const TEACHER_MEMBERS: Teacher[] = [
     badge: "Kitab Kuning & Tahfidz",
     bio: "Membimbing pengajian Kitab Kuning (Fikih, Nahwu-Sharaf, Tauhid, Akhlak) dengan metode sorogan dan bandongan serta halaqah tahfidz Al-Qur'an santri harian.",
     avatarInitial: "UB",
-    imageSrc: "",
+    imageSrc: "/ust-bisrilhafi.png",
   },
   {
     id: "rifki",
@@ -84,7 +84,7 @@ export const TEACHER_MEMBERS: Teacher[] = [
     badge: "Multimedia & IT",
     bio: "Mendampingi santri belajar keterampilan komputer, multimedia, pengetikan rapi, serta pemahaman logika dasar teknologi setelah pengajian Kitab Kuning.",
     avatarInitial: "RF",
-    imageSrc: "",
+    imageSrc: "/ust-rifki.png",
   },
 ];
 
@@ -115,7 +115,7 @@ export const HUMAS_PERSONS: HumasPerson[] = [
     phoneRaw: "6281221978018",
     bio: "Mengurus administrasi pendaftaran santri baru, konfirmasi sisa kuota (kapasitas ±25 santri), infaq pendaftaran, serta pembimbing multimedia & IT santri.",
     avatarInitial: "RF",
-    imageSrc: "",
+    imageSrc: "/ust-rifki.png",
     defaultMessage: "Assalamu'alaikum Warahmatullahi Wabarakatuh Ust. Rifki, saya ingin bertanya terkait pendaftaran santri baru dan bimbingan multimedia IT di Nurul Ibad.",
   },
   {
@@ -128,7 +128,7 @@ export const HUMAS_PERSONS: HumasPerson[] = [
     phoneRaw: "6281283985450",
     bio: "Bertanggung jawab atas ketertiban asrama santri putra, koordinasi survei kamar mukim, dan penerimaan kunjungan silaturahmi langsung wali santri.",
     avatarInitial: "TQ",
-    imageSrc: "",
+    imageSrc: "/ust-taufik.png",
     defaultMessage: "Assalamu'alaikum Warahmatullahi Wabarakatuh Ust. Taufiq, saya berniat silaturahmi langsung ke pondok bersama calon santri untuk survei asrama.",
   },
 ];

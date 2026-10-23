@@ -32,12 +32,12 @@ export const HumasSection: React.FC = () => {
                 {/* Avatar Placeholder Circle */}
                 <div className="flex items-center gap-4 mb-4">
                   <div className="relative">
-                    <div className="w-16 h-16 rounded-full bg-emerald-50 border-2 border-emerald-800 flex items-center justify-center text-emerald-900 font-bold text-lg shadow-xs group-hover:scale-105 transition-transform overflow-hidden">
+                    <div className="w-18 h-18 rounded-full bg-white border-2 border-emerald-800 flex items-center justify-center text-emerald-900 font-bold text-lg shadow-xs group-hover:scale-105 transition-transform overflow-hidden">
                       {person.imageSrc ? (
                         <img
                           src={person.imageSrc}
                           alt={person.name}
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-cover object-top"
                         />
                       ) : (
                         <span className="font-serif text-lg font-bold text-emerald-800">
